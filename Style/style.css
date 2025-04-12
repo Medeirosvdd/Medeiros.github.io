@@ -1,0 +1,36 @@
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(170, 170, 170);
+  background-color: #000000;
+  font-family: "Kanit", sans-serif;
+}
+
+.Eu img {
+  margin-left: 500px;
+  margin-top: 90px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid rgb(72, 255, 0);
+  margin-left: 50px;
+}
+#Mo {
+  cursor: pointer;
+}
+
+.conteudo{
+    text-align: center;
+}
+
+.conteudo img {
+  margin-left: 418px;
+  border: 3px solid rgb(168, 168, 168);
+  margin-top: 90px;
+  height: 500px;
+  width: 500px;
+  display: block;
+}

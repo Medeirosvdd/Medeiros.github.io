@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   outline: none;
   box-sizing: border-box;
 }
@@ -9,28 +11,132 @@ body {
   font-family: "Kanit", sans-serif;
 }
 
-.Eu img {
-  margin-left: 500px;
-  margin-top: 90px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 3px solid rgb(72, 255, 0);
-  margin-left: 50px;
+.meuNav {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #fafafa;
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  overflow: hidden;
 }
-#Mo {
+
+.meusLinks {
+  width: 70%;
+  max-width: 1000px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.Logo {
+  height: 40px;
+  width: auto;
+  margin-top: 0;
+}
+
+.busca-topo {
+  width: 300px;
+  height: 30px;
+  background: #eee;
+  border: 1px solid #f7f7f7;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.busca-topo::placeholder {
+  color: rgb(192, 187, 187);
+}
+
+.menu-icones {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon, .perfil {
+  height: 24px;
+  width: 24px;
   cursor: pointer;
+  display: inline-block;
 }
 
-.conteudo{
-    text-align: center;
+.perfil {
+  border-radius: 50%;
+  background-size: cover;
 }
 
-.conteudo img {
-  margin-left: 418px;
-  border: 3px solid rgb(168, 168, 168);
-  margin-top: 90px;
-  height: 500px;
-  width: 500px;
-  display: block;
+.body-Prindipal {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.ContGeral {
+  display: flex;
+  justify-content: start; /* Alinha as colunas no início */
+  gap: 20px; /* Espaçamento entre os stories */
+  width: 70%;
+  max-width: 1000px;
+}
+
+.colunL, .colunR {
+  display: flex;
+  flex-direction: row; /* Alinha os itens em linha */
+  gap: 10px; /* Espaçamento entre os stories */
+}
+
+.status, .destaque {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status {
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.destaque {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.destaque .perfilS img {
+  border-radius: 50%; 
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 2px solid #fff; 
+}
+
+.nomeDire {
+  font-size: 14px;
+  color: #fff;
+}
+
+.Body-principal {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.colunL {
+  width: auto;
+}
+
+.ColunR {
+  width: auto;
 }
